@@ -1,0 +1,73 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+nav a
+{
+	font-family: 'K2D', sans-serif;
+}	
+nav a p
+{
+	font-family: 'Charmonman', cursive;
+}
+.img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.PP
+{
+	width: 30%;
+	border-radius: 50%
+}
+
+body
+{
+	background-color:#f2fff4;
+}
+header h1
+{
+	font-family: 'Charmonman', cursive;
+}
+article
+{
+	padding-left:20%;
+}
+article h3
+{
+	font-family: 'Overlock', cursive;
+}
+article h5
+{
+	font-family: 'Quicksand', sans-serif;
+}
+article .w3-card-4
+{
+	float: left;
+	margin: 10px
+}
+
+
+
+
+ 
+}
+footer .w3-card
+{
+ 	padding-left: 50px
+
+}
+footer i
+{
+	padding-left: 20px;
+}
+button
+{
+	font-family: 'K2D', sans-serif;
+}

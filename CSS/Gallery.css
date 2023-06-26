@@ -1,0 +1,122 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+nav a
+{
+	font-family: 'K2D', sans-serif;
+}	
+nav a p
+{
+	font-family: 'Charmonman', cursive;
+}
+.img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.PP
+{
+	width: 30%;
+	border-radius: 50%
+}
+
+body
+{
+	background-color:#f2fff4;
+}
+header h1
+{
+	font-family: 'Charmonman', cursive;
+}
+.ff1
+{
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+.container
+{
+	width: 1280px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.container .box
+{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: #ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+}
+.container .box .imgBox img
+{
+	padding-top:40px;
+	max-width: 100%;
+	transition: transform 2s;
+}
+.container .box:hover .imgBox img
+{
+	transform: scale(1.2);
+}
+.container .box .details
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,0.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container .box:hover .details
+{
+	transform: scaleY(1);
+}
+
+.container .box .details .content
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding:15px;
+	color: #fff;
+}
+.container .box .details .content h2
+{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: 	#ff0;
+}
+.container .box .details .content p
+{
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+footer .w3-card
+{
+ 	padding-left: 50px
+
+}
+footer i
+{
+	padding-left: 20px;
+}
